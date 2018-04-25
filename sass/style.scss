@@ -1,0 +1,167 @@
+@import "modules/slider";
+@import "modules/form";
+@import "modules/modal";
+
+html{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  font-family:'Amatic SC', cursive;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#splash-page{
+  background-color: #76b2b7;
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  z-index:2;
+  
+}
+
+#header2{
+  font-size: 120px;
+  top:40%;
+  left:24%;
+}
+
+#logo2{
+  width: 270px;
+  height: 200px;
+  position: absolute;
+  top:20%;
+  left:34%;
+}
+#logo-words2{
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  position: absolute;
+  font-size:40px;
+  left:34%;
+  top:35%;
+}
+#begin{
+  color:white;
+  border-radius: 10px;
+  border: #5CB85C;
+  text-align: center;
+  background-color: #5CB85C;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  top: 70%;
+  left:35%;
+  width:200px;
+  height: 60px;
+  font-size: 40px;
+  box-shadow:
+  0 2px 2px 0 rgba(0,0,0,0.14),
+  0 1px 5px 0 rgba(0,0,0,0.12), 
+  0 3px 1px -2px rgba(0,0,0,0.2);
+     
+    cursor: pointer;
+}
+
+#main-content {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  grid-template-columns:repeat(3, 1fr);
+
+}
+
+.page-container{
+  height:100vh;
+  width: 100vw;
+  position: relative;
+  margin: 0 auto;
+  
+
+}
+#header{
+    height: 20vh;
+    background-color: #76b2b7;
+    grid-column: 1/6;
+
+  }
+#body {
+    height: 100vh;
+    background-color: white;
+    grid-column: 1/6;
+}
+#footer{
+   height: 10vh;
+   background-color: #76b2b7;
+   grid-column: 1/6;
+}
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    position: absolute;
+    left:36%;
+    font-size: 80px;
+    font-weight: 400;
+    
+  
+  }
+  #about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  
+    margin-bottom:0px;
+
+  }
+
+  #logo{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left:5%;
+    top:8%;
+  }
+  #logo:hover{
+   transform: scale(1.1);
+  }
+  #logo-words{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    position: absolute;
+    bottom: -8%;
+    left:5%;
+    font-size: 20px;
+  
+  }
+
+  .description {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left:38%;
+  }
+  #box2{
+    display: none;
+  }
+  #box3{
+    display: none;
+  }
+
+  #box4{
+    display: none;
+  }
+
+  #box5{
+    display: none;
+  }
+  #box6{
+    display: none;
+  }
+ 
+

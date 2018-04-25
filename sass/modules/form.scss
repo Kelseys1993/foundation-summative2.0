@@ -1,0 +1,318 @@
+.form-container {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    width: 80%;
+    height: 350px;
+    background-color: #76b2b7;
+    position: relative;
+    margin-left: 10%;  
+    margin-top: 15%; 
+
+
+    
+   
+  }
+.contain{
+  width:0%;
+  height:350px;
+  
+}
+
+ h3{
+    position: absolute;
+    left:20%;
+    }
+  
+
+ [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: white;
+  }
+
+ [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid white;
+  }
+ [type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
+    border: 2px solid white;
+  }
+ [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+  font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+
+  }
+
+  #one {
+    position: absolute;
+    top: 80px;
+    left:80px;
+  }
+   #two {
+    position: absolute;
+    top: 80px;
+    left: 330px
+  }
+   #three {
+    position: absolute;
+    top: 170px;
+    left:80px;
+  }
+   #four {
+    position: absolute;
+    top: 170px;
+    left:330px;
+  }
+  //second form
+   #formTwo{
+    display: none;
+
+  }
+    #pOne {
+    position: absolute;
+    top: 50px;
+    left:80px;
+  }
+   #pTwo {
+    position: absolute;
+    top: 50px;
+    left:370px
+  }
+   #pThree {
+    position: absolute;
+    top: 120px;
+    left:80px;
+  }
+   #pFour {
+    position: absolute;
+    top: 120px;
+    left:370px;
+  }
+  #pFive{
+    position: absolute;
+    top: 190px;
+    left:80px;
+  }
+  #pSix{
+    position: absolute;
+    top: 190px;
+    left: 370px
+  }
+  .waves-effect{
+    position: absolute;
+    top:240px;
+    right:50px;
+    
+
+  }
+  .btn-large{
+    position: absolute;
+    top:80%;
+    border-radius: 10px;
+    background-color: #5CB85C;
+    width: 136px;
+    height: 48px;
+    font-size: 25px;
+   
+    }
+  .btn-large:hover{
+      background-color:  #5CB85C
+  }
+  .previous{
+      left:50px;
+  }
+    // third form
+  #formThree{
+      display:none;
+  }
+  #travel{
+      font-size: 30px;
+      left: 32%;
+      top:130px;
+    }
+  #passengers{
+      font-size: 30px;
+      left:35%
+    }
+
+  #count{
+      width:20px;
+      position: absolute;
+      top:205px;
+      font-size: 30px;
+    }
+  ::-webkit-input-placeholder {
+    color: white;
+  }
+
+  #plus {
+      position: absolute;
+      top:205px;
+      right:200px;
+      background-color: white;
+      color:black;
+      border: white;
+      width:50px;
+      height:50px;
+
+    }
+  #minus{
+      position: absolute;
+      top:205px;
+      left:200px;
+      background-color: white;
+      border: white;
+      color:black;
+      width:50px;
+      height:50px;
+    }
+  #valueOne{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:70px;
+    left:30px;
+
+  }
+    #valueTwo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:70px;
+    left:130px;
+
+  }
+    #valueThree{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:70px;
+    left:230px;
+
+  }
+    #valueFour{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:70px;
+    right:230px;
+
+  }
+    #valueFive{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:70px;
+    right:130px;
+
+  }
+    #valueSix{
+   width: 60px;
+    height: 60px;
+    position: absolute;
+    top:70px;
+    right:30px;
+
+  }
+  label > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+  }
+  label > input + img{ /* IMAGE STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+  }
+  label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    border:2px solid #fff;
+    border-radius: 100px;
+  }
+
+  //fourth form
+
+  #formFour{
+    display: none;
+
+  }
+  #vehicle{
+    left:35%
+  }
+  #vehicleOne{
+    position: absolute;
+    top:20%;
+    left:15%;
+    background-color: white;
+    border-radius: 20px;
+    width:185px;
+    height: 95px;
+
+    
+  }
+ 
+
+  #vehicleOne:hover,  #vehicleTwo:hover, #vehicleThree:hover, #vehicleFour:hover{
+    transform: scale(1.1);
+  }
+  #vehicleTwo{
+    position: absolute;
+    top:50%;
+    left:15%;
+    background-color: white;
+    border-radius: 20px;
+    width:185px;
+    height: 95px;
+    
+  }
+  #error { 
+    position: absolute;
+    right:20px;
+    top: 270px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    width: 320px;
+  }
+    #vehicleThree{
+    position: absolute;
+    top:20%;
+    left:55%;
+    background-color: white;
+    border-radius: 20px;
+    width:185px;
+    height:95px;
+    
+  }  #vehicleFour{
+    position: absolute;
+    top:50%;
+    left:55%;
+    background-color: white;
+    border-radius: 20px;
+    width:185px;
+    height: 95px;
+   
+  }
+  #error-message{
+    display: none;
+    font-family:  'Nunito', sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+  #vehicleOne > img{
+    width:150px;
+    height: 100px;
+  }
+   #vehicleTwo > img{
+    width:190px;
+    height:100px;
+  }
+   #vehicleThree > img{
+    width:160px;
+    height:100px;
+  }
+   #vehicleFour > img{
+    width:180px;
+    height:95px;
+  }
+
+
+  

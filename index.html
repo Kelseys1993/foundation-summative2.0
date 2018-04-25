@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Roadtrippers</title>
+
+  <!-- main font style -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+ <!--  slick slider style sheets -->
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+ <!--  tool tips plugin stylesheet -->
+   <link rel="stylesheet" type="text/css" href="assets/tooltipster/dist/css/tooltipster.bundle.min.css" />
+  <!-- materialize stylesheet -->
+  <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.min.css"/>
+  <!-- custom stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+  <div class='page-container'>
+
+  <div id='splash-page'> 
+
+      <h1 id='header2'>Roadtrippers</h1>
+
+      <img src="img/tnz.png" alt='logo' id='logo2'>
+
+      <p id='logo-words2'>New Zealand Tourisim</p>
+<a id='begin'>Enter</a>
+
+  </div>
+
+  <div id='main-content'>
+    <div id='header'>
+      <div>
+        <h1>Roadtrippers</h1>
+
+        <img src="img/tnz.png" alt='logo' id='logo'>
+
+        <p id='logo-words'>New Zealand Tourisim</p>
+      </div>
+    </div>
+    
+
+  <div id='body'>
+    <div id='about'>
+      <p>Choose one of four starting locations to begin a road trip to one of six locations around the North Island of New Zealand. Each location is either an adventure activity or a scenic location</p>
+    </div>
+
+    <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src='img/zorbing.jpg' alt='zorbing' class='imagePos'></a>
+    <a class="carousel-item" href="#two!"><img src='img/hobbiton.jpg' alt='hobbiton' class='imagePos'>></a>
+    <a class="carousel-item" href="#three!"><img src='img/huka-falls.jpg' alt='huka falls' class='imagePos'></a>
+    <a class="carousel-item" href="#four!"><img src='img/dolphin.jpg' alt='dolphins' class='imagePos'></a>
+    <a class="carousel-item" href="#five!"><img src='img/castlepoint.jpg' alt='castlepoint' class='imagePos'></a>
+    <a class="carousel-item" href="#six"><img src='img/waitomo.jpg' alt='waitomo cave' class='imagePos'></a>
+  </div>
+        
+<!-- <div class="slider">
+  <div>
+
+    <div class="slide-h3" >
+      <img src='img/zorbing.jpg' alt='zorbing' class='imagePos'>
+      <p> Zorbing in Rotorua</p>
+      
+    </div>
+  </div>
+  <div>
+      <div class="slide-h3" >
+        <img src='img/huka-falls.jpg' alt='huka falls' class='imagePos'>
+         <p> Huka Falls Taupo</p>
+    </div>
+  </div>
+  <div>
+   <div class="slide-h3" >
+    <img src='img/hobbiton.jpg' alt='hobbiton' class='imagePos'>
+     <p> Hobbiton Matamata</p>
+    </div>
+  </div>
+  <div>
+    <div class="slide-h3" >
+      <img src='img/dolphin.jpg' alt='dolphins' class='imagePos'>
+       <p>Dolphin Swim Tauranga </p>
+    </div>
+  </div>
+  <div>
+     <div class="slide-h3">
+      <img src='img/castlepoint.jpg' alt='castlepoint' class='imagePos'>
+       <p>Castlepoint Walks </p>
+    </div>
+  </div>
+   <div>
+     <div class="slide-h3" >
+      <img src='img/waitomo.jpg' alt='waitomo cave' class='imagePos'>
+       <p> Glowworms Waitomo</p>
+
+    </div>
+  </div>
+
+</div> --> <!-- slider container ends -->
+
+<!-- form one begins   -->
+ <form id="demo-form" name='theForm' >
+<div class='form-container' id='formOne'>
+ 
+
+  <div class='form-section'>
+    <h3> Choose your starting location</h3>
+    <p id='one'>
+      <input class="with-gap" name="group1" type="radio" id="location1" value='Auckland' />
+      <label for="location1">Auckland</label>
+    </p>
+     <p id='two'>
+      <input class="with-gap" name="group1" type="radio" id="location2" value='New Plymouth' />
+      <label for="location2">New Plymouth</label>
+    </p>
+     <p id='three'>
+      <input class="with-gap" name="group1" type="radio" id="location3" value='Wellington' />
+      <label for="location3">Wellington</label>
+    </p>
+     <p id='four'>
+      <input class="with-gap" name="group1" type="radio" id="location4" value='Napier' />
+      <label for="location4">Napier</label>
+    </p>
+
+<a class="waves-effect waves-light btn-large btn tooltip" title='Select Starting Location' id='firstBtn'>Next</a>
+  </div>
+
+</div>
+ <!-- form one ends -->
+
+<!-- form two starts -->
+
+<div class='form-container' id='formTwo'>
+
+  <div class='form-section'>
+    <h3> Choose your activity location</h3>
+    <p id='pOne'>
+
+      <input class="with-gap" name="group2" type="radio" id="location5" value='waitomo'/>
+      <label for="location5">Waitomo</label>
+    </p>
+     <p id='pTwo'>
+      <input class="with-gap" name="group2" type="radio" id="location6" value='taupo'/>
+      <label for="location6">Taupo</label>
+    </p>
+     <p id='pThree'>
+      <input class="with-gap" name="group2" type="radio" id="location7" value='rotorua'/>
+      <label for="location7">Rotorua</label>
+    </p>
+     <p id='pFour'>
+      <input class="with-gap" name="group2" type="radio" id="location8" value='matamata'/>
+      <label for="location8">Matamata</label>
+    </p>
+     <p id='pFive'>
+      <input class="with-gap" name="group2" type="radio" id="location9" value='tauranga'/>
+      <label for="location9">Tauranga</label>
+    </p>
+     <p id='pSix'>
+      <input class="with-gap" name="group2" type="radio" id="location10" value='castlepoint'/> 
+      <label for="location10">Castlepoint</label>
+    </p>
+    
+
+<a class="waves-effect waves-light btn-large tooltip2" title='Select Activity Location' id='secondBtn'>Next</a>
+  <a class="waves-effect waves-light btn-large previous" id='prevOne'>Previous</a>
+  </div>
+
+</div>
+<!-- form two ends -->
+
+<!-- form three starts -->
+<div class='form-container' id='formThree'>
+
+
+  <div class='form-section'>
+    <h3 id="travel"> Number of days traveling</h3>
+    <div id="input_div">
+      <input type="button" value="-" id="minus">
+    <input type="text" placeholder='0' size="15" value="" id="count"> <input type="button" value="+" id="plus">
+    </div>
+
+     <h3 id="passengers"> Number of Passengers</h3>
+    <label>
+      <input type="radio" name="group3" value="1" class='radios'/>
+      <img src="img/one.png" id='valueOne' alt='one'>
+  </label>
+  <label>
+      <input type="radio" name="group3" value="2" class='radios'/>
+      <img src="img/two.png" id='valueTwo'  alt='two'>
+  </label>
+   <label>
+      <input type="radio" name="group3" value="3" class='radios'/>
+      <img src="img/three.png" id='valueThree'  alt='three'>
+  </label>
+   <label>
+      <input type="radio" name="group3" value="4" class='radios'/>
+      <img src="img/four.png" id='valueFour'  alt='four'>
+  </label>
+   <label>
+      <input type="radio" name="group3" value="5" class='radios'/>
+      <img src="img/five.png" id='valueFive'  alt='five'>
+  </label>
+   <label>
+      <input type="radio" name="group3" value="6" class='radios'/>
+      <img src="img/six.png" id='valueSix'  alt='six'>
+  </label>
+<a class="waves-effect waves-light btn-large" id='thirdBtn'>Next</a>
+  <a class="waves-effect waves-light btn-large previous" id='prevTwo'>Previous</a>
+  </div>
+</div>
+</form>
+<!-- form three ends -->
+
+<!-- form four starts -->
+<div class='form-container' id='formFour'>
+  <div class='form-section'>
+   <h3 id="vehicle"> Choose a vehicle</h3>
+    <div id='vehicleOne'>
+      <img src='img/motobike.png' class='modal-trigger' data-target="modal1" id='trigger1' alt='motorbike'>
+    </div>
+    <div id='vehicleTwo'>
+      <img src='img/small-car.png' class='modal-trigger' data-target="modal2" id='trigger2' alt='samll car'>
+    </div>
+      <div id='vehicleThree'>
+      <img src='img/large-car.png' class='modal-trigger' data-target="modal3" id='trigger3' alt='large car'>
+    </div>
+      <div id='vehicleFour'>
+      <img src='img/motorhome.png' class='modal-trigger' data-target="modal4" id='trigger4' alt='motorhome'>
+    </div>
+
+    <p id='error'>(If vehicles are unvaliable, the travel days and passengers selected are not valid for the vehicle) </p>
+
+
+  <a class="waves-effect waves-light btn-large previous" id='prevThree'>Previous</a>
+  </div>
+  
+</div>
+<!-- form four ends -->
+
+  <!-- Modal One Starts -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      <h4>BMW R1200GS</h4>
+      <p class='price'>$109per day</p>
+      <div>
+        <img src='img/motobike.png' alt='motorbike' class='modalImage'>
+    
+        <div> 
+          <div class='trip-cost'>
+            <p>Trip Cost</p>          
+          </div>
+          <div  class='style'>
+            <p id='distance1'></p>
+          </div>
+          <div  class='style'>
+            <p id='rental1'></p>
+          </div>
+          <div  class='style'>
+            <p id='fuel1'> </p>
+          </div>
+          <div class='style bottom'>
+            <p id='total1' > </p>
+          </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href='http://www.tourismnewzealand.com' class="waves-effect waves-light btn-large modal-button">Book</a>
+  <a class="waves-effect waves-light btn-large previous modal-button2"  >New Trip</a>
+    </div>
+  </div>
+  </div>
+  <!-- modal one ends -->
+
+  <!-- modal two starts -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      
+      <h4>Hyundai New i10</h4>
+      <p class='price'>$129per day</p>
+      <div>
+        
+        <img src='img/small-car.png' alt='small-car' class='modalImage'>
+       
+        <div> 
+          <div class='trip-cost'>
+            <p>Trip Cost</p>          
+          </div>
+          <div  class='style'>
+            <p id='distance2'></p>
+          </div>
+          <div  class='style'>
+            <p id='rental2'> </p>
+          </div>
+          <div  class='style'>
+            <p id='fuel2'> </p>
+          </div>
+          <div  class='style bottom'>
+            <p id='total2'> </p>
+          </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href='http://www.tourismnewzealand.com' class="waves-effect waves-light btn-large modal-button">Book</a>
+  <a class="waves-effect waves-light btn-large previous modal-button2 ">New Trip</a>
+    </div>
+  </div>
+  </div>
+<!--   modal two ends -->
+
+  <!-- modal three starts -->
+<div id="modal3" class="modal">
+    <div class="modal-content">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      
+      
+      <h4>Hyundai i40 Tourer</h4>
+      <p class='price'>$144per day</p>
+      
+      <div>
+        
+        <img src='img/large-car.png' alt='large-car' class='modalImage'>
+
+       
+        <div> 
+          <div class='trip-cost'>
+            <p>Trip Cost</p>          
+          </div>
+          <div class='style'>
+            <p id='distance3' ></p>
+          </div>
+          <div  class='style'>
+            <p id='rental3'></p>
+          </div>
+          <div  class='style'>
+            <p id='fuel3'> </p>
+          </div>
+          <div class='style bottom'>
+            <p id='total3' > </p>
+          </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href='http://www.tourismnewzealand.com' class="waves-effect waves-light btn-large modal-button">Book</a>
+  <a class="waves-effect waves-light btn-large previous modal-button2" >New Trip</a>
+    </div>
+  </div>
+  </div>
+  <!-- modal three ends -->
+
+ <!--  modal four starts -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+      
+    
+      <h4>Gulf Stream</h4>
+      <p class='price'>$200per day</p>
+      <div>
+ 
+        <img src='img/motorhome.png' alt='motorhome' class='modalImage'>
+        <div> 
+          <div class='trip-cost'>
+            <p>Trip Cost</p>          
+          </div>
+          <div  class='style'>
+            <p id='distance4'></p>
+          </div>
+          <div class='style'>
+            <p id='rental4'> </p>
+          </div>
+          <div class='style'>
+            <p id='fuel4'> </p>
+          </div>
+          <div class='style bottom'>
+            <p id='total4' > </p>
+          </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href='http://www.tourismnewzealand.com' class="waves-effect waves-light btn-large  modal-button">Book</a>
+  <a class="waves-effect waves-light btn-large previous modal-button2" >New Trip</a>
+    </div>
+  </div>
+  </div>
+  <!-- modal four ends -->
+</div> <!-- body ends -->
+
+<div id='footer'> 
+</div>
+</div> <!-- main content ends -->
+
+</div> <!-- page container div ends -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="assets/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <script type="text/javascript" src="assets/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+  <script  src="js/js-object.js"></script>
+  <script src='js/plugins.js'></script>
+	<script src='js/custom.js'></script>
+	
+</body>
+</html>
