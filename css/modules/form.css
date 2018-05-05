@@ -1,14 +1,14 @@
 .form-container {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Cabin', sans-serif;
   font-size: 30px;
-  color: white;
+  color: #2A2A2A;
   text-align: center;
-  width: 80%;
+  width: 50%;
   height: 350px;
-  background-color: #76b2b7;
+  background-color: #e0e0e2;
   position: relative;
-  margin-left: 10%;
-  margin-top: 15%; }
+  margin-left: 25%;
+  margin-top: 10%; }
 
 .contain {
   width: 0%;
@@ -16,43 +16,43 @@
 
 h3 {
   position: absolute;
-  left: 20%; }
+  left: 15%; }
 
 [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after {
-  background-color: white; }
+  background-color: #2A2A2A; }
 
 [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:before, [type="radio"].with-gap:checked + label:after {
-  border: 2px solid white; }
+  border: 2px solid #2A2A2A; }
 
 [type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after {
-  border: 2px solid white; }
+  border: 2px solid #2A2A2A; }
 
 [type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
-  font-family: 'Nunito', sans-serif;
-  color: white;
+  font-family: 'Cabin', sans-serif;
+  color: #2A2A2A;
   font-size: 25px;
   letter-spacing: 1px;
   line-height: 1.2; }
 
 #one {
   position: absolute;
-  top: 80px;
-  left: 80px; }
+  top: 22%;
+  left: 21%; }
 
 #two {
   position: absolute;
-  top: 80px;
-  left: 330px; }
+  top: 22%;
+  left: 55%; }
 
 #three {
   position: absolute;
-  top: 170px;
-  left: 80px; }
+  top: 48%;
+  left: 21%; }
 
 #four {
   position: absolute;
-  top: 170px;
-  left: 330px; }
+  top: 48%;
+  left: 55%; }
 
 #formTwo {
   display: none; }
@@ -96,13 +96,13 @@ h3 {
   position: absolute;
   top: 80%;
   border-radius: 10px;
-  background-color: #5CB85C;
+  background-color: #f2a22b;
   width: 136px;
   height: 48px;
   font-size: 25px; }
 
 .btn-large:hover {
-  background-color: #5CB85C; }
+  background-color: #f2a22b; }
 
 .previous {
   left: 50px; }
@@ -239,7 +239,7 @@ label > input:checked + img {
   right: 20px;
   top: 270px;
   font-size: 15px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Cabin', sans-serif;
   width: 320px; }
 
 #vehicleThree {
@@ -262,7 +262,7 @@ label > input:checked + img {
 
 #error-message {
   display: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 30px;
   color: white; }
 
