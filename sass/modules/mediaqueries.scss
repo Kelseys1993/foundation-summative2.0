@@ -1,0 +1,65 @@
+@media screen  and (max-width: 990px) and (min-width: 740px) /* Tablet */ {
+	
+	#logo {
+		width:26% !important;
+		left:37% !important;
+		top:3% !important;
+
+	}
+	#logo2 {
+		left: 24% !important;
+    width: 56%!important;
+	}
+	#begin {
+	top: 64% !important;
+    left: 32% !important;
+
+	}
+	#header {
+		height: 16vh !important;
+	}
+	.image-container {
+		grid-template-columns: repeat(3, 1fr) !important;
+	}
+	.image4 {
+		grid-column: 1/2 !important;
+			}
+	.image5 {
+		grid-column:2/3 !important;
+	}
+	.image6 {
+		grid-column:3/4 !important;
+	}
+	.form-container {
+		margin-top: 40% !important;
+		width: 80% !important;
+		margin-left: 10% !important;
+	}
+	h3 {
+		left:12% !important;
+	}
+}
+
+
+
+@media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 990px) {
+#body {
+	height:140vh !important;
+}
+#header {
+	height: 20vh !important;
+}
+.form-container {
+	margin-top:37% !important;
+	
+}
+#begin {
+	top: 70% !important;
+   
+	}
+}
+@media screen and (max-height: 800px) and (min-height: 500px) and (min-width: 1400px) {
+	#body {
+		height: 125vh !important;
+	}
+}

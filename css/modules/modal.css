@@ -26,13 +26,13 @@ h4 {
 
 .trip-cost > p {
   text-align: center;
-  background-color: #76b2b7;
+  background-color: #626468;
   font-size: 30px;
-  color: white;
   margin-bottom: 0px;
   font-family: 'Cabin', sans-serif;
   border: 1px solid black;
-  border-bottom: none; }
+  border-bottom: none;
+  color: #e0dddd; }
 
 .style {
   border: 1px solid black;

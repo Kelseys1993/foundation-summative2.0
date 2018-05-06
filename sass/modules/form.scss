@@ -1,11 +1,11 @@
 .form-container {
     font-family: 'Cabin', sans-serif;
     font-size: 30px;
-    color:#2A2A2A;
+    color:#e0dddd;
     text-align: center;
     width: 50%;
     height: 350px;
-    background-color: #e0e0e2;
+    background-color: #626468;
     position: relative;
     margin-left: 25%;  
     margin-top: 10%; 
@@ -22,23 +22,23 @@
 
  h3{
     position: absolute;
-    left:15%;
+    left:14%;
     }
   
 
  [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
-    background-color: #2A2A2A;
+    background-color: #e0dddd;
   }
 
  [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
-    border: 2px solid #2A2A2A;
+    border: 2px solid #e0dddd;
   }
  [type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
-    border: 2px solid #2A2A2A;
+    border: 2px solid #e0dddd;
   }
  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
   font-family: 'Cabin', sans-serif;
-    color: #2A2A2A;
+    color: #e0dddd;
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 1.2;
@@ -113,7 +113,7 @@
     top:80%;
     border-radius: 10px;
     background-color:  #f2a22b;
-    width: 136px;
+    width: 142px;
     height: 48px;
     font-size: 25px;
     
@@ -174,48 +174,49 @@
     width: 60px;
     height: 60px;
     position: absolute;
-    top:70px;
-    left:30px;
+    top: 20%;
+    left:6%;
 
   }
     #valueTwo{
     width: 60px;
     height: 60px;
     position: absolute;
-    top:70px;
-    left:130px;
+    top: 20%;
+    left:21%;
 
   }
     #valueThree{
     width: 60px;
     height: 60px;
     position: absolute;
-    top:70px;
-    left:230px;
+   top: 20%;
+    left:38%;
 
   }
     #valueFour{
     width: 60px;
     height: 60px;
     position: absolute;
-    top:70px;
-    right:230px;
+    top: 20%;
+    right: 37%;
+
 
   }
     #valueFive{
     width: 60px;
     height: 60px;
     position: absolute;
-    top:70px;
-    right:130px;
+    top: 20%;
+    right:21%;
 
   }
     #valueSix{
    width: 60px;
     height: 60px;
     position: absolute;
-    top:70px;
-    right:30px;
+    top: 20%;
+    right:6%;
 
   }
   label > input{ /* HIDE RADIO */

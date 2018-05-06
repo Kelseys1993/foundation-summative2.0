@@ -1,25 +1,31 @@
 @import "modules/slider";
 @import "modules/form";
 @import "modules/modal";
+@import "modules/mediaqueries";
 
 html{
   width: 100vw;
+  max-width: 1536px;
   height: 100vh;
+  overflow-x:hidden;
+  margin: 0 auto;
 }
 body{
   font-family: 'Cabin', sans-serif;
   width: 100vw;
   height: 100vh;
+  max-width: 1536px;
   margin: 0 auto;
 }
 
 #splash-page{
-  background-color:  #e0e0e2;
+  background-color:  #626468;
   width:100vw;
   height:100vh;
+  max-width: 1536px;
   position:absolute;
   z-index:2;
-  display: none;
+  // display: none;
   
 }
 
@@ -28,7 +34,8 @@ body{
   
   position: absolute;
   top:25%;
-  left:35%;
+  left:34%;
+  width:35%;
 }
 
 #begin{
@@ -40,10 +47,10 @@ body{
   -webkit-tap-highlight-color: transparent;
   position: absolute;
   top: 70%;
-  left:41%;
-  width:200px;
-  height: 60px;
-  font-size: 40px;
+  left:41.5%;
+  width:285px;
+  height: 76px;
+  font-size: 52px;
   box-shadow:
   0 2px 2px 0 rgba(0,0,0,0.14),
   0 1px 5px 0 rgba(0,0,0,0.12), 
@@ -56,7 +63,9 @@ body{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  // display: none;
+  max-width: 1536px;
+  display: none;
+  margin: 0 auto;
   grid-template-columns:repeat(3, 1fr);
 
 }
@@ -71,25 +80,25 @@ body{
 }
 #header{
     height: 20vh;
-    background-color: #e0e0e2;
+    background-color: #626468;
     grid-column: 1/6;
 
   }
 #body {
-    height: 100vh;
+    height: 105vh;
     background-color: white;
     grid-column: 1/6;
 }
 #footer{
    height: 10vh;
-   background-color: #e0e0e2;
+   background-color: #626468;
    grid-column: 1/6;
 }
 
   #about{
     width: 80%;
     margin: 0 auto;
-    margin-top: 5%;
+    padding-top: 5%;
     font-family: 'Cabin', sans-serif;
     font-size: 22px;
     text-align: center;
@@ -100,7 +109,7 @@ body{
   #logo{
     width: 15%;
     position: absolute;
-    left:40%;
+    left:43%;
     top:4%;
     cursor: pointer;
   }
