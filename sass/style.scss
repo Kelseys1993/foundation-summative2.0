@@ -5,16 +5,15 @@
 
 html{
   width: 100vw;
-  max-width: 1536px;
   height: 100vh;
   overflow-x:hidden;
   margin: 0 auto;
 }
+
 body{
   font-family: 'Cabin', sans-serif;
   width: 100vw;
   height: 100vh;
-  max-width: 1536px;
   margin: 0 auto;
 }
 
@@ -22,10 +21,8 @@ body{
   background-color:  #626468;
   width:100vw;
   height:100vh;
-  max-width: 1536px;
   position:absolute;
   z-index:2;
-  // display: none;
   
 }
 

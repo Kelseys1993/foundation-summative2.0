@@ -64,7 +64,7 @@
 
 h3 {
   position: absolute;
-  left: 14%; }
+  left: 13%; }
 
 [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after {
   background-color: #e0dddd; }
@@ -107,33 +107,33 @@ h3 {
 
 #pOne {
   position: absolute;
-  top: 50px;
-  left: 80px; }
+  top: 15%;
+  left: 18%; }
 
 #pTwo {
   position: absolute;
-  top: 50px;
-  left: 370px; }
+  top: 15%;
+  left: 63%; }
 
 #pThree {
   position: absolute;
-  top: 120px;
-  left: 80px; }
+  top: 34%;
+  left: 18%; }
 
 #pFour {
   position: absolute;
-  top: 120px;
-  left: 370px; }
+  top: 34%;
+  left: 63%; }
 
 #pFive {
   position: absolute;
-  top: 190px;
-  left: 80px; }
+  top: 54%;
+  left: 18%; }
 
 #pSix {
   position: absolute;
-  top: 190px;
-  left: 370px; }
+  top: 54%;
+  left: 63%; }
 
 .waves-effect {
   position: absolute;
@@ -424,7 +424,13 @@ h4 {
     margin-left: 10% !important; }
 
   h3 {
-    left: 12% !important; } }
+    left: 12% !important; }
+
+  #passengers {
+    left: 26% !important; }
+
+  #travel {
+    left: 23% !important; } }
 @media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 990px) {
   #body {
     height: 140vh !important; }
@@ -440,9 +446,42 @@ h4 {
 @media screen and (max-height: 800px) and (min-height: 500px) and (min-width: 1400px) {
   #body {
     height: 125vh !important; } }
+@media screen and (min-width: 375px) and (max-width: 740px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    width: 100% !important; }
+
+  .image3 {
+    grid-column: 1/2 !important; }
+
+  .image4 {
+    grid-column: 2/3 !important; }
+
+  .image5 {
+    grid-column: 1/2 !important; }
+
+  .image6 {
+    grid-column: 2/3 !important; }
+
+  .imagePos {
+    width: 75%; }
+
+  #body {
+    height: 200vh !important; }
+
+  .form-container {
+    margin-top: 125% !important;
+    width: 95% !important;
+    margin-left: 2% !important; }
+
+  h5 {
+    font-size: 18px; }
+
+  h3 {
+    font-size: 25px;
+    left: 8% !important; } }
 html {
   width: 100vw;
-  max-width: 1536px;
   height: 100vh;
   overflow-x: hidden;
   margin: 0 auto; }
@@ -451,14 +490,12 @@ body {
   font-family: 'Cabin', sans-serif;
   width: 100vw;
   height: 100vh;
-  max-width: 1536px;
   margin: 0 auto; }
 
 #splash-page {
   background-color: #626468;
   width: 100vw;
   height: 100vh;
-  max-width: 1536px;
   position: absolute;
   z-index: 2; }
 
