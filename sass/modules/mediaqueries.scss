@@ -1,4 +1,4 @@
-@media screen  and (max-width: 990px) and (min-width: 740px) /* Tablet */ {
+@media screen  and (max-width: 951px) and (min-width: 685px) /* Tablet */ {
 	
 	#logo {
 		width:26% !important;
@@ -48,7 +48,7 @@
 
 
 
-@media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 990px) {
+@media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 951px) {
 #body {
 	height:140vh !important;
 }
@@ -56,7 +56,7 @@
 	height: 20vh !important;
 }
 .form-container {
-	margin-top:37% !important;
+	margin-top:40% !important;
 	
 }
 #begin {
@@ -64,12 +64,12 @@
    
 	}
 }
-@media screen and (max-height: 800px) and (min-height: 500px) and (min-width: 1400px) {
+@media screen and (max-height: 800px) and (min-height: 500px) and (min-width: 951px) {
 	#body {
 		height: 125vh !important;
 	}
 }
-@media screen and (min-width:375px) and (max-width: 740px) {
+@media screen  and (max-width: 685px) and (min-width:375px) {
 	.image-container {
 		    grid-template-columns: repeat(2, 1fr) !important;
 		    width: 100% !important;
@@ -88,13 +88,17 @@
 		grid-column: 2/3 !important;
 	}
 	.imagePos {
-		width: 75%;
+		width: 60%;
 	}
 	#body {
-		height: 200vh !important;
+		height: 176vh !important;
+	}
+	#logo {
+		width: 40%!important;
+		left:31%!important;
 	}
 	.form-container {
-		margin-top: 125%!important;
+		margin-top: 88%!important;
 		width: 95% !important;
 		margin-left: 2% !important;
 	}
@@ -105,4 +109,152 @@
 		font-size: 25px;
 		left: 8% !important;
 	}
+	[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+		font-size: 22px!important;
+	}
+	#one {
+	top: 17%;
+    left: 9%;
+
+	}
+	#two {
+	top: 20%;
+    left: 53%;
+	}
+	#three {
+    top: 44%;
+    left: 9%;
+	}
+	#four {
+	top: 44%;
+    left: 53%;
+	}
+	.btn-large {
+	width: 88px;
+    height: 48px;
+    font-size: 15px
+	}
+	#pOne {
+	 top: 12%;
+    left: 8%;
+	}
+	#pTwo {
+	 top: 12%;
+    left: 55%;
+
+	}
+	#pThree {
+	top: 30%;
+    left: 8%;
+	}
+	#pFour {
+	top: 30%;
+    left: 55%;
+	}
+	#pFive {
+	top: 50%;
+    left: 8%;
+	}
+	#pSix{
+	top: 50%;
+    left: 55%;
+	}
+	.previous {
+		left:20px;
+	}
+	.waves-effect {
+		right:20px;
+	}
+	#valueOne, #valueTwo, #valueThree, #valueFour,
+	#valueFive, #valueSix {
+		width: 40px !important;
+		height: 40px !important;
+	}
+	#valueThree {
+		left:36%!important;
+	}
+	#valueFour {
+		right:36%!important;
+	}
+	#plus {
+		right:65px !important;
+	}
+	#minus {
+		left:80px !important;
+	}
+	#logo2 {
+		left: 8% !important;
+    width: 86% !important;
+	}
+    #begin {
+    	left: 12.5% !important;
+    }
+    #vehicleOne {
+    	width:127px !important;
+    	left: 9% !important;
+    }
+    #vehicleTwo{
+		width:135px !important;
+    	left: 9% !important;
+
+    }
+
+	#vehicleThree {
+	width:143px !important;
+    	left: 51% !important;
+	}
+	#vehicleFour {
+		width:148px !important;
+    	left: 51% !important;
+ 
+	}
+	 #vehicleOne > img {
+    width: 120px!important;
+    height: 85px!important;
+	}
+    #vehicleTwo > img{
+	width: 144px!important;
+    height: 83px!important;
+ 
+    }
+
+	#vehicleThree > img{
+	width: 121px!important;
+    height: 91px!important;
+	}
+	#vehicleFour > img{
+	width: 150px!important;
+    height: 88px!importantr;
+	}
+	#vehicle {
+		font-size: 23px !important;
+    left: 25% !important;
+    margin-top: 2px !important;
+	}
+	#error {
+	right: 17px !important;
+    top: 17px !important;
+    font-size: 12px!important;
+	}
+	
+	
+}
+@media screen and (max-height: 800px) and (min-height: 700px) and (max-width: 685px) and (min-width: 470px){ 
+
+#body {
+	height: 178vh !important;
+}
+
+#header {
+	height: 16vh !important;
+}
+
+
+}
+@media screen and (max-height: 800px) and (min-height: 700px) and (max-width: 470px) { 
+#body {
+	height: 160vh!important;
+}
+
+
 }
