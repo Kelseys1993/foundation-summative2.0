@@ -342,6 +342,235 @@ h4 {
   font-family: 'Cabin', sans-serif;
   font-size: 20px; }
 
+@media screen and (max-width: 951px) and (min-width: 685px) {
+  #logo {
+    width: 26% !important;
+    left: 37% !important;
+    top: 3% !important; }
+
+  #logo2 {
+    left: 24% !important;
+    width: 56% !important; }
+
+  #begin {
+    top: 64% !important;
+    left: 32% !important; }
+
+  .image-container {
+    grid-template-columns: repeat(3, 1fr) !important; }
+
+  .image4 {
+    grid-column: 1/2 !important; }
+
+  .image5 {
+    grid-column: 2/3 !important; }
+
+  .image6 {
+    grid-column: 3/4 !important; }
+
+  .form-container {
+    width: 80% !important;
+    margin-left: 10% !important; }
+
+  h3 {
+    left: 12% !important; }
+
+  #passengers {
+    left: 26% !important; }
+
+  #travel {
+    left: 23% !important; }
+
+  .btn-large {
+    width: 200px !important; } }
+@media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 951px) {
+  #begin {
+    top: 70% !important; } }
+@media screen and (max-width: 685px) and (min-width: 375px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    width: 100% !important; }
+
+  .image3 {
+    grid-column: 1/2 !important; }
+
+  .image4 {
+    grid-column: 2/3 !important; }
+
+  .image5 {
+    grid-column: 1/2 !important; }
+
+  .image6 {
+    grid-column: 2/3 !important; }
+
+  .imagePos {
+    width: 60%; }
+
+  #logo {
+    width: 40% !important;
+    left: 31% !important; }
+
+  .form-container {
+    width: 95% !important;
+    margin-left: 2% !important; }
+
+  h5 {
+    font-size: 18px; }
+
+  h3 {
+    font-size: 25px;
+    left: 8% !important; }
+
+  [type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+    font-size: 22px !important; }
+
+  #one {
+    top: 17%;
+    left: 9%; }
+
+  #two {
+    top: 20%;
+    left: 53%; }
+
+  #three {
+    top: 44%;
+    left: 9%; }
+
+  #four {
+    top: 44%;
+    left: 53%; }
+
+  .btn-large {
+    width: 144px;
+    height: 48px;
+    font-size: 15px; }
+
+  #pOne {
+    top: 12%;
+    left: 8%; }
+
+  #pTwo {
+    top: 12%;
+    left: 55%; }
+
+  #pThree {
+    top: 30%;
+    left: 8%; }
+
+  #pFour {
+    top: 30%;
+    left: 55%; }
+
+  #pFive {
+    top: 50%;
+    left: 8%; }
+
+  #pSix {
+    top: 50%;
+    left: 55%; }
+
+  .previous {
+    left: 20px; }
+
+  .waves-effect {
+    right: 20px; }
+
+  #valueOne, #valueTwo, #valueThree, #valueFour,
+  #valueFive, #valueSix {
+    width: 40px !important;
+    height: 40px !important; }
+
+  #valueThree {
+    left: 36% !important; }
+
+  #valueFour {
+    right: 36% !important; }
+
+  #plus {
+    right: 65px !important; }
+
+  #minus {
+    left: 80px !important; }
+
+  #logo2 {
+    left: 8% !important;
+    width: 86% !important; }
+
+  #begin {
+    left: 12.5% !important; }
+
+  #vehicleOne {
+    width: 127px !important;
+    left: 9% !important; }
+
+  #vehicleTwo {
+    width: 135px !important;
+    left: 9% !important; }
+
+  #vehicleThree {
+    width: 143px !important;
+    left: 51% !important; }
+
+  #vehicleFour {
+    width: 148px !important;
+    left: 51% !important; }
+
+  #vehicleOne > img {
+    width: 120px !important;
+    height: 85px !important; }
+
+  #vehicleTwo > img {
+    width: 144px !important;
+    height: 83px !important; }
+
+  #vehicleThree > img {
+    width: 121px !important;
+    height: 91px !important; }
+
+  #vehicleFour > img {
+    width: 150px !important;
+    height: 88px !important r; }
+
+  #vehicle {
+    font-size: 23px !important;
+    left: 25% !important;
+    margin-top: 2px !important; }
+
+  #error {
+    right: 17px !important;
+    top: 17px !important;
+    font-size: 12px !important; }
+
+  .open {
+    width: 95%; }
+
+  .modal .modal-content {
+    padding: 10px !important;
+    width: 90% !important;
+    margin-left: 10px !important; }
+
+  .modalImage {
+    width: 250px !important;
+    margin-left: 12% !important; }
+
+  .style {
+    height: 70px !important;
+    font-size: 22px !important; }
+
+  .modal-button {
+    top: 140% !important; }
+
+  .modal-button2 {
+    top: 140% !important; } }
+@media screen and (max-width: 374px) {
+  .page-container {
+    display: none; }
+
+  #splash-page {
+    display: none; }
+
+  .resize-messagebox {
+    display: block !important; } }
 html {
   width: 100vw;
   height: 100vh;
