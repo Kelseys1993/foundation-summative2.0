@@ -1,7 +1,6 @@
-@import "modules/slider";
 @import "modules/form";
 @import "modules/modal";
-@import "modules/mediaqueries";
+
 
 html{
   width: 100vw;
@@ -16,6 +15,20 @@ body{
   height: 100vh;
   margin: 0 auto;
 }
+.resize-messagebox {
+  display: none;
+  height: 100vh;
+
+}
+.resize-message {
+
+padding-top: 82%;
+  padding-left: 9%;
+  font-size: 25px;
+  margin: 0;
+
+}
+
 
 #splash-page{
   background-color:  #626468;
@@ -75,18 +88,18 @@ body{
 
 }
 #header{
-    height: 20vh;
+    padding: 85px;
     background-color: #626468;
     grid-column: 1/6;
 
   }
 #body {
-    height: 105vh;
+    
     background-color: white;
     grid-column: 1/6;
 }
 #footer{
-   height: 10vh;
+   padding: 40px;
    background-color: #626468;
    grid-column: 1/6;
 }

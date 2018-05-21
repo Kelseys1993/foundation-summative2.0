@@ -12,9 +12,6 @@
     top: 64% !important;
     left: 32% !important; }
 
-  #header {
-    height: 16vh !important; }
-
   .image-container {
     grid-template-columns: repeat(3, 1fr) !important; }
 
@@ -28,7 +25,6 @@
     grid-column: 3/4 !important; }
 
   .form-container {
-    margin-top: 40% !important;
     width: 80% !important;
     margin-left: 10% !important; }
 
@@ -39,22 +35,13 @@
     left: 26% !important; }
 
   #travel {
-    left: 23% !important; } }
+    left: 23% !important; }
+
+  .btn-large {
+    width: 200px !important; } }
 @media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 951px) {
-  #body {
-    height: 140vh !important; }
-
-  #header {
-    height: 20vh !important; }
-
-  .form-container {
-    margin-top: 40% !important; }
-
   #begin {
     top: 70% !important; } }
-@media screen and (max-height: 800px) and (min-height: 500px) and (min-width: 951px) {
-  #body {
-    height: 125vh !important; } }
 @media screen and (max-width: 685px) and (min-width: 375px) {
   .image-container {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -75,15 +62,11 @@
   .imagePos {
     width: 60%; }
 
-  #body {
-    height: 176vh !important; }
-
   #logo {
     width: 40% !important;
     left: 31% !important; }
 
   .form-container {
-    margin-top: 88% !important;
     width: 95% !important;
     margin-left: 2% !important; }
 
@@ -114,7 +97,7 @@
     left: 53%; }
 
   .btn-large {
-    width: 88px;
+    width: 144px;
     height: 48px;
     font-size: 15px; }
 
@@ -212,15 +195,37 @@
   #error {
     right: 17px !important;
     top: 17px !important;
-    font-size: 12px !important; } }
-@media screen and (max-height: 800px) and (min-height: 700px) and (max-width: 685px) and (min-width: 470px) {
-  #body {
-    height: 178vh !important; }
+    font-size: 12px !important; }
 
-  #header {
-    height: 16vh !important; } }
-@media screen and (max-height: 800px) and (min-height: 700px) and (max-width: 470px) {
-  #body {
-    height: 160vh !important; } }
+  .open {
+    width: 95%; }
+
+  .modal .modal-content {
+    padding: 10px !important;
+    width: 90% !important;
+    margin-left: 10px !important; }
+
+  .modalImage {
+    width: 250px !important;
+    margin-left: 12% !important; }
+
+  .style {
+    height: 70px !important;
+    font-size: 22px !important; }
+
+  .modal-button {
+    top: 140% !important; }
+
+  .modal-button2 {
+    top: 140% !important; } }
+@media screen and (max-width: 374px) {
+  .page-container {
+    display: none; }
+
+  #splash-page {
+    display: none; }
+
+  .resize-messagebox {
+    display: block !important; } }
 
 /*# sourceMappingURL=mediaqueries.css.map */
