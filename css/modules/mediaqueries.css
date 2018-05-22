@@ -203,7 +203,7 @@
   .modal .modal-content {
     padding: 10px !important;
     width: 90% !important;
-    margin-left: 10px !important; }
+    margin-left: 18px !important; }
 
   .modalImage {
     width: 250px !important;
@@ -213,11 +213,9 @@
     height: 70px !important;
     font-size: 22px !important; }
 
-  .modal-button {
-    top: 140% !important; }
-
   .modal-button2 {
-    top: 140% !important; } }
+    top: 140% !important;
+    left: 30% !important; } }
 @media screen and (max-width: 374px) {
   .page-container {
     display: none; }

@@ -285,8 +285,8 @@ label > input:checked + img {
 
 .modal-content {
   width: 500px;
-  margin-left: 30px;
-  height: 450px; }
+  margin-left: 48px;
+  height: 500px; }
 
 .open {
   width: 600px;
@@ -332,15 +332,11 @@ h4 {
 .style > p {
   margin-left: 10px; }
 
-.modal-button {
-  top: 152%;
-  font-family: 'Cabin', sans-serif;
-  font-size: 20px; }
-
 .modal-button2 {
-  top: 152%;
+  top: 150%;
   font-family: 'Cabin', sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+  left: 32%; }
 
 @media screen and (max-width: 951px) and (min-width: 685px) {
   #logo {
@@ -547,7 +543,7 @@ h4 {
   .modal .modal-content {
     padding: 10px !important;
     width: 90% !important;
-    margin-left: 10px !important; }
+    margin-left: 18px !important; }
 
   .modalImage {
     width: 250px !important;
@@ -557,11 +553,9 @@ h4 {
     height: 70px !important;
     font-size: 22px !important; }
 
-  .modal-button {
-    top: 140% !important; }
-
   .modal-button2 {
-    top: 140% !important; } }
+    top: 140% !important;
+    left: 30% !important; } }
 @media screen and (max-width: 374px) {
   .page-container {
     display: none; }
