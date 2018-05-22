@@ -57,7 +57,7 @@
 	}
 }
 
-@media screen  and (max-width: 685px) and (min-width:375px) {
+@media screen  and (max-width: 685px) and (min-width:355px) {
 	.image-container {
 		    grid-template-columns: repeat(2, 1fr) !important;
 		    width: 100% !important;
@@ -248,7 +248,7 @@
 }
 
 
-@media screen and (max-width:374px) {
+@media screen and (max-width:355px) {
 	.page-container {
 		display: none;
 

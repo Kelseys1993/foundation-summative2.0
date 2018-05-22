@@ -382,7 +382,7 @@ h4 {
 @media screen and (max-height: 900px) and (min-height: 500px) and (max-width: 951px) {
   #begin {
     top: 70% !important; } }
-@media screen and (max-width: 685px) and (min-width: 375px) {
+@media screen and (max-width: 685px) and (min-width: 355px) {
   .image-container {
     grid-template-columns: repeat(2, 1fr) !important;
     width: 100% !important; }
@@ -556,7 +556,7 @@ h4 {
   .modal-button2 {
     top: 140% !important;
     left: 30% !important; } }
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 355px) {
   .page-container {
     display: none; }
 
