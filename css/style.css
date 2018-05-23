@@ -571,6 +571,9 @@ h4 {
 
   .resize-messagebox {
     display: block !important; } }
+@media screen and (min-height: 1000px) and (min-width: 1500px) {
+  #logo {
+    top: 1%; } }
 html {
   width: 100vw;
   height: 100vh;
